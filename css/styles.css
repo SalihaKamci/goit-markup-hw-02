@@ -13,19 +13,19 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.header.s-logo{
+.header .s-logo{
 color:#2e2f42;
 }
-.header.h-adress{
+.header .h-adress{
     font-style:normal ;
 }
-.header.h-adress-a{
+.header .h-adress-a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
-.header.h-adress-a:hover, .header.header.h-adress-a:focus{
+.header.logo:hover, .header.header.logo:focus{
     color: #404bbf 
 }
 .header .h-list-a{
@@ -68,9 +68,8 @@ color:#2e2f42;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.effective > button:hover {
-    background-color:#404bbf; }
-    .effective > button:focus {
+
+ .effective > button:focus, .effective > button:hover{
         background-color:#404bbf; }
 
 
@@ -81,7 +80,7 @@ color:#2e2f42;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.digital.d-paragraf {
+.digital .d-paragraf {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -92,13 +91,14 @@ color:#2e2f42;
   background-color: #f4f4fd;
   font-family: "Raleway", serif;
 }
-.team.t-header {
+.team .t-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+ 
 }
 
 .team .t-list {
