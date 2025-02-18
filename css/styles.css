@@ -1,77 +1,158 @@
-body{
-    font-family: "Roboto", sans-serif;
-    color: black;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
-.header{
-    height: 72;
-}
-.effective{
-    background-color: #2E2F42;
-    font-weight: bold;
-    font-size: 56px;
-    color:white;
-    text-align: center;
-}
-.digital > h3{
-    font-size: 20px ;
-    line-height: 1.5;
+.header .logo{
+    font-family:"Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
-.digital>p{
+.header.s-logo{
+color:#2e2f42;
+}
+.header.h-adress{
+    font-style:normal ;
+}
+.header.h-adress-a{
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
-.team{
+.header.h-adress-a:hover, .header.header.h-adress-a:focus{
+    color: #404bbf 
+}
+.header .h-list-a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42
+}
 
-    background-color: #F4F4FD;
-    font-family: "Raleway", serif;
-    
+.header.h-list-a:hover {
+    color: #404bbf;
 }
-.team>h3{
-    font-size: 20;
-    line-height: 1.5;
-    font-weight: 700;
-   
-}
-.team>p{
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-}
-.portfolio h3{
-    font-size: 20;
-    line-height: 1.5;
-    font-weight: 700;
-   
-  
-}
-.portfolio p{
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
 
+.header.h-list-a:focus {
+ color: #404bbf;
 }
-.footer{
-    background-color: #2E2F42;
+.effective {
+  background-color: #2e2f42;
+  font-weight: bold;
+  font-size: 56px;
+  color: white;
+  text-align: center;
+}
+.effective .e-header {
+  font-size: 56px;
+  letter-spacing: 0.02em;
+
+  line-height: 1.07;
 }
 .effective > button {
-    background-color: #4D5AE5;
-    color:white;
-    font-size: 16px;
-    width: 169px;
-    height: 56px;
-    text-align: center;
+  background-color: #4d5ae5;
+  color: white;
+  font-size: 16px;
+  width: 169px;
+  height: 56px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
-.effective button:hover{
-    background-color: black;
+.effective > button:hover {
+    background-color:#404bbf; }
+    .effective > button:focus {
+        background-color:#404bbf; }
+
+
+.digital .d-header {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.effective button:active{
-    background-color: rebeccapurple;
+.digital.d-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-footer>p{
-    font-size: 16px;
-    line-height: 1.5;
-    
+.team {
+  background-color: #f4f4fd;
+  font-family: "Raleway", serif;
+}
+.team.t-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team .t-list {
+  background-color: #ffffff;
+}
+.team .t-listheader {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team .t-listparagraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio .p-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio .headertwo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio .p-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
+}
+
+.effective button:hover {
+  background-color: black;
+}
+.effective button:active {
+  background-color: red;
+}
+.footer .f-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
