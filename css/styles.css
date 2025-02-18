@@ -1,9 +1,77 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+.header{
+    height: 72;
+}
 .effective{
     background-color: #2E2F42;
+    font-weight: bold;
+    font-size: 56px;
+    color:white;
+    text-align: center;
+}
+.digital > h3{
+    font-size: 20px ;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.digital>p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
 }
 .team{
+
     background-color: #F4F4FD;
+    font-family: "Raleway", serif;
+    
+}
+.team>h3{
+    font-size: 20;
+    line-height: 1.5;
+    font-weight: 700;
+   
+}
+.team>p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.portfolio h3{
+    font-size: 20;
+    line-height: 1.5;
+    font-weight: 700;
+   
+  
+}
+.portfolio p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
 }
 .footer{
     background-color: #2E2F42;
+}
+.effective > button {
+    background-color: #4D5AE5;
+    color:white;
+    font-size: 16px;
+    width: 169px;
+    height: 56px;
+    text-align: center;
+}
+.effective button:hover{
+    background-color: black;
+}
+.effective button:active{
+    background-color: rebeccapurple;
+}
+footer>p{
+    font-size: 16px;
+    line-height: 1.5;
+    
 }
