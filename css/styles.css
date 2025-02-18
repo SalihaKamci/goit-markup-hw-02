@@ -16,6 +16,11 @@ body {
 .s-logo{
 color:#2e2f42;
 }
+
+.header a:hover, .header a:focus{
+   color: #404bbf; 
+
+}
 .header .h-adress{
     font-style:normal ;
 }
@@ -69,9 +74,11 @@ color:#2e2f42;
   cursor: pointer;
 }
 
- .effective > button:focus, .effective > button:hover{
-        background-color:#404bbf; }
-
+ .button:focus{
+        background-color:#404BBF; }
+        button:hover {
+            background-color: #404BBF;
+        }
 
 .digital .d-header {
   font-size: 20px;
@@ -126,7 +133,7 @@ color:#2e2f42;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.portfolio .headertwo {
+.portfolio .p-headertwo {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -144,12 +151,7 @@ color:#2e2f42;
   background-color: #2e2f42;
 }
 
-.effective button:hover {
-  background-color: black;
-}
-.effective button:active {
-  background-color: red;
-}
+
 .footer .f-paragraf {
   font-size: 16px;
   line-height: 1.5;
